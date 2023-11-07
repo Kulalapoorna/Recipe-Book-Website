@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Of Snacks</title>
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <style>
+        .dish-list {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.5); /* Cream background color with opacity for the dish list */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .dish-item {
+            display: flex;
+            font-size: larger;
+            align-items: center;
+            margin-bottom: 10px;
+            border: 2px solid #b85151; /* Dark red border for each recipe */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .dish-name {
+            flex-grow: 1;
+            color: #b85151; /* Dark red text color for dish names */
+        }
+        .view-recipe-button {
+            padding: 5px 15px;
+            background-color: #b85151; /* Dark red button background color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 2px 6px 5px #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="Northernnawabi.jpg" alt="Header Image"> <!-- Replace with the actual image file name and path -->
+        <div class="header-text">
+            <h1>Northern Nawabi</h1>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="index.html">PREV</a>
+    </div>
+    <div class="container">
+        <h2>SNACKS</h2>
+        <p><i>"Snacks: A delightful array of flavors, spices, and textures that tantalize your taste buds."</i></p>
+        <div class="dish-list">
+            <div class="dish-item">
+                <img src="samosa.jpg" alt="Samosa" height="100px" width="100px" style="margin-right: 10px;">
+                <span class="dish-name">SAMOSA</span>
+                <a class="view-recipe-button" href="samosa.html">View Recipe</a>
+            </div>
+            <div class="dish-item">
+                <img src="bhelpuri.jpg" alt="Bhel Puri" height="100px" width="100px" style="margin-right: 10px;">
+                <span class="dish-name">BHEL PURI</span>
+                <a class="view-recipe-button" href="bhelpuri.html">View Recipe</a>
+            </div>
+            <div class="dish-item">
+                <img src="onionpakora.jpg" alt="Onion Pakora" height="100px" width="100px" style="margin-right: 10px;">
+                <span class="dish-name">ONION PAKORA</span>
+                <a class="view-recipe-button" href="pakora.html">View Recipe</a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer> 
+    <h1 style="color:black;text-align: center;font-family: cursive; font-size:large;">"Crafted with love, savor every flavor! ❤️"</h1>
+ </footer>
+</html>
